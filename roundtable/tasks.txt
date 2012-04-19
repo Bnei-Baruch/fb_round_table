@@ -1,0 +1,117 @@
+alpha
+------
+
+
+dev moar
+------ 
+p
+contact us popup					3
+
+4 initial achievements system	   
+	infra						   3	
+	ach unlock table on db
+	crunch elig function
+	user data table
+	insert ach unlock state into session
+	on unlock, insert unlock event
+	on client, add handeling of event - popup of unlockation w/ publish
+		
+	procesing                     3
+		likes
+		add like event -> add to user_data
+		count for elig
+		
+	closing table function: (proc parties + no bursting) 6
+		read events, 
+			sit down? plox parti data
+			talk but no burst? plox no bursting data
+		select from unlocks for relevant users
+		count user_data for elig
+		clean stream, live, live_parti, parti, connections, delete from parti_counters
+		add event that table has been closed
+		for clients, add procing that shows table has been closed
+		different design for when table is closed
+		
+	amount of friends invited??
+	
+
+implement actions in production, add app_name global
+infrastructure:
+live & stream cleaning 
+seperate server						3
+
+--------------------------------------------------------
+24
+
+	
+stuff to discuss with anatoly:
+new virtual tour?
+close table	
+create table button
+-------------------------
+3
+
+
+issues
+redo background top for admin page
+when passing right to speech, sometimes it gets lost and repaired only after u pass to someone who asks																	
+collect mails? 		
+to make leaderboard icon thing, need it cut												
+transperancy for like.jpg,parti_ppl what else?			
+better stuff in event posting, piccy, better formatted text, invite invtees
+IE and less not compatible with rounded corner css	
+in IE, on first pageload there is no session for do.php	
+										
+----------------------------------------------------------
+
+
+issues future
+invite to where when making planned table??	
+actions redirect to external page. how to solve?
+really make action about posts in chat?
+you can fuck admin.php if you mess around a little
+what permission to invite to event?
+sometimes cleafocustype won't trigger
+what triggers another connection event??	
+handle multiple popups				
+new line without submitting?									
+upadting parti counters on every index load	
+leaderboard query can be heavy for too many users	
+
+
+features future
+redirect if has no fb frame
+get app actions whitelisted
+better designed pages with table errors
+kewl numbering functions
+make links into links
+can't see others ranks
+open crowd chat to see who is connected
+onhover tooltip for stuff
+add box shadow css
+default date for create table if picked
+interactive tutorial
+update parti_counters live
+male/female,age, residence
+You have X more characters to type
+X is typing
+subscribe to table opening
+delete too?
+error msgs for do.php
+timeout for do.php
+donkey badge
+onhover effect for more buttons
+translations
+sound
+COMET or real time technology
+unban during table?
+kick & ban?
+auto-disco
+crowd chat counter goes out of sync		
+moar ach
+burster state ico
+improve user options menu
+css scroll bars
+
+scroller for crowd chat (only cssed)
+
